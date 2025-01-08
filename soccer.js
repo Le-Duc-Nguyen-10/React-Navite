@@ -4,6 +4,7 @@ const players = [
     { name: 'Ronaldo', goals: 28 },
     { name: 'Neymar', goals: 22 },
     { goals: 2 },
+    undefined,
     { name: 'Mbappé', goals: 25 },
     { name: 'Pele', goals: null },
 ];
