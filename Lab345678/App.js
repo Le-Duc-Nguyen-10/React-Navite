@@ -1,20 +1,8 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import react from "react";
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text style={{fontSize : 30}}>Lê Đức Nguyên </Text>
-      <StatusBar style="auto" />
-    </View>
-  );
-}
+import Modal from "./lab3/modal";
+const App = () => {
+  return <Modal></Modal>;
+};
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default App;
