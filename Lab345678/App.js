@@ -1,8 +1,8 @@
-import react from "react";
+import react from 'react';
 
-import Modal from "./lab3/modal";
+import Lab43 from './lab4/keyboardAvoidingViewComponent';
 const App = () => {
-  return <Modal></Modal>;
+    return <Lab43></Lab43>;
 };
 
 export default App;
