@@ -1,8 +1,8 @@
 import react from 'react';
 
-import Lab43 from './lab4/keyboardAvoidingViewComponent';
+import FlexView from './lab5/flexbox';
 const App = () => {
-    return <Lab43></Lab43>;
+    return <FlexView></FlexView>;
 };
 
 export default App;

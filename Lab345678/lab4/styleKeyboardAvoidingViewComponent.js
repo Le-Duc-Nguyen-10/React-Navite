@@ -10,7 +10,7 @@ export const style = StyleSheet.create({
     },
     header: {
         fontSize: 28,
-        fontWeight: 'bold',
+        fontFamily: 'YourFont',
         marginBottom: 48,
     },
     textInput: {
