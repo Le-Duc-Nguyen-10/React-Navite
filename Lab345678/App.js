@@ -5,14 +5,16 @@ import BottomTabs from './lab7';
 import FlexBoxView from './lab5/flex-box-ui';
 import { createStackNavigator } from '@react-navigation/stack';
 const Stack = createStackNavigator();
+import Crud from './lab8/CRUD';
 const App = () => {
     return (
-        <NavigationContainer>
-            <Stack.Navigator screenOptions={{ headerShown: false }}>
-                <Stack.Screen name="FlexBoxView" component={FlexBoxView} />
-                <Stack.Screen name="BottomTabs" component={BottomTabs} />
-            </Stack.Navigator>
-        </NavigationContainer>
+        // <NavigationContainer>
+        //     <Stack.Navigator screenOptions={{ headerShown: false }}>
+        //         <Stack.Screen name="FlexBoxView" component={FlexBoxView} />
+        //         <Stack.Screen name="BottomTabs" component={BottomTabs} />
+        //     </Stack.Navigator>
+        // </NavigationContainer>
+        <Crud></Crud>
     );
 };
 

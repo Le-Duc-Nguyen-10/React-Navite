@@ -1,0 +1,96 @@
+import { StyleSheet } from 'react-native';
+export const styles = StyleSheet.create({
+    container: {
+        flexDirection: 'column',
+        backgroundColor: 'white',
+        borderRadius: 4,
+        padding: 15,
+        marginHorizontal: 20,
+        marginVertical: 10,
+        elevation: 10,
+    },
+    containerText: {
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: 'center',
+        gap: 20,
+        borderRadius: 4,
+        paddingVertical: 25,
+        paddingHorizontal: 10,
+    },
+    containerButton: {
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    buttonNew: {
+        justifyContent: 'center',
+        alignItems: 'center',
+        borderRadius: '4',
+        paddingVertical: 10,
+        paddingHorizontal: 16,
+        backgroundColor: 'blue',
+        marginBottom: 12,
+    },
+    name: {
+        fontSize: 18,
+        fontWeight: 'bold',
+        textAlign: 'center',
+    },
+    birthday: {
+        fontSize: 18,
+        fontWeight: 'bold',
+        textAlign: 'center',
+    },
+    button: {
+        backgroundColor: 'blue',
+        paddingVertical: 12,
+        paddingHorizontal: 16,
+        marginHorizontal: 8,
+        color: 'white',
+        fontWeight: 'bold',
+    },
+    buttonText: {
+        color: 'white',
+        fontSize: 16,
+        fontWeight: 'bold',
+    },
+    buttonTextNew: {
+        fontSize: 18,
+        color: 'white',
+        fontWeight: 'bold',
+        paddingVertical: 10,
+    },
+
+    containerModel: {
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        right: 0,
+        bottom: 0,
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    overlay: {
+        ...StyleSheet.absoluteFillObject,
+        backgroundColor: 'rgba(0, 0, 0, 0.2)',
+    },
+    modelContent: {
+        width: '90%',
+        backgroundColor: '#fff',
+        padding: 20,
+        borderRadius: 10,
+        elevation: 5,
+    },
+    input: {
+        width: '100%',
+        borderBottomWidth: 1,
+        borderColor: '#ccc',
+        marginBottom: 15,
+        padding: 8,
+    },
+    buttonGroup: {
+        flexDirection: 'row',
+        justifyContent: 'center',
+    },
+});
