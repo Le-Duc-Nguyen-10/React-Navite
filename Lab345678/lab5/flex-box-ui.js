@@ -1,7 +1,7 @@
 import { ImageBackground, StatusBar, View, Text, TouchableOpacity } from 'react-native';
 import { styleFlexBox } from './style-flexbox-ui';
 import { useFonts } from 'expo-font';
-const FlexBoxView = () => {
+const FlexBoxView = ({ navigation }) => {
     const [fontsLoaded] = useFonts({
         myFont: require('../assets/fonts/Poppins-SemiBold.ttf'),
     });
@@ -22,7 +22,11 @@ const FlexBoxView = () => {
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
                         the industry's standard dummy text ever since the 1500s
                     </Text>
-                    <TouchableOpacity style={styleFlexBox.containerButton} activeOpacity={1}>
+                    <TouchableOpacity
+                        style={styleFlexBox.containerButton}
+                        activeOpacity={1}
+                        onPress={() => navigation.navigate('BottomTabs')}
+                    >
                         <Text style={styleFlexBox.textButton}>Get Started</Text>
                     </TouchableOpacity>
                 </View>
